@@ -1,7 +1,11 @@
 body {
     font-family: 'Baskerville', 'Cambria', Helvetica;
+    font: rgb(34, 13, 7);
+    background-color: rgb(25,65,100
+    );
 }
 
 .headshot {
-    border-radius: 2em;
+    
+    
 }
