@@ -4,55 +4,62 @@ html {
 	}
 
 body {
-    font-family: 'Baskerville', 'Cambria', Helvetica;
-    font: rgb(34, 13, 7);
+    font: 'Baskerville', 'Cambria', Helvetica;
+    color: rgb(34, 13, 7);
     margin: 0;
     
 }
+
 p { 
 	margin-top: 0;
     padding: 15px; 
 	text-align: justify;
-	}
+}
 
 #banner {
-    width: 400;
+    margin-left: auto;
+    width: 300;
     margin-bottom: 0;
     padding-top: 5%;
     background-color: #15486A;
+}
+
+#banner-left {
+    float: left;
+    width: 33%;
+}
+
+#banner-center {
+    float: left;
+    width: 33%;
+}
+
+#banner-right {
+    float: left;
+    width: 33%;
 }
 
 #banner-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 100%;
 }
 
-#nav-bar {
-    background-color: #6a152f;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    margin-right: auto;
-    position: fixed;
-    top: 0;
-    width: 100%;
+#nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     z-index: 100;
+    background-color: #6a152f;
+    
 } 
 
-#nav-table {
-    display: block;
-    margin: auto;
-    padding: 2px;
-    width: 400px; 
-}
-
-#nav-table tr td {
-    margin: auto;
-    font-size: 18pt;
-    width: 10%; 
-    text-align: center;
-    font: white;
+#nav-bar li {
+    display: inline;
+    float: left;
+    color: white;
 }
 
 #page-content {
