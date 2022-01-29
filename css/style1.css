@@ -16,27 +16,28 @@ p {
 	}
 
 #banner {
-    /*margin-left: auto;
-    padding-top: 2%;*/
-    
+    width: 400;
+    margin-bottom: 0;
+    padding-top: 5%;
+    background-color: #15486A;
 }
 
 #banner-pic {
-    margin: auto;
-    display: flex;
-    border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 
 #nav-bar {
-    background-color: #D97973;
+    background-color: #6a152f;
     padding-bottom: 0;
-    margin-top: 5px;
     margin-bottom: 0;
     margin-right: auto;
-    /*position: fixed;
+    position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;*/
+    z-index: 100;
 } 
 
 #nav-table {
@@ -44,20 +45,21 @@ p {
     margin: auto;
     padding: 2px;
     width: 400px; 
-
 }
 
-.nav-links {
+#nav-table tr td {
     margin: auto;
     font-size: 18pt;
     width: 10%; 
     text-align: center;
+    font: white;
 }
 
 #page-content {
-    margin: 0;
+    margin: auto;
     padding: 20px 80px 0 80px;
     position: relative;
+    width: 800px;
     min-width: 600px;
     font-size: 16pt;
 
