@@ -1,13 +1,22 @@
+@font-face {
+    font-family: "Clicker";
+    src: url("fonts/ClickerScript-Regular.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "Overpass";
+    src: url("fonts/OverpassMono-Regular.ttf") format("truetype");
+  }
+
 html {
 	margin: 0;
 	padding: 0;
-	}
+}
 
 body {
-    font: 'Baskerville', 'Cambria', Helvetica;
+    font-family: "Overpass", sarif;
     color: rgb(34, 13, 7);
     margin: 0;
-    
 }
 
 p { 
@@ -16,27 +25,51 @@ p {
 	text-align: justify;
 }
 
-#banner {
+.header-bar {
+    height: 2em;
+    padding: 0px 0px 0px 0px;
+}
+
+.colorstrip {
+    margin: auto;
+    width: 800px;
+    height: 5px;
+    border-bottom: solid 2px #51156a;
+    background-color: #15486A;
+    border-top: solid 3px #6a5d15;
+}
+
+#shelby-logo {
+    padding: 0px 10px 0px 10px;
+}
+
+.banner {
     margin-left: auto;
-    width: 300;
+    width: 100%;
     margin-bottom: 0;
     padding-top: 5%;
-    background-color: #15486A;
+    /*background-color: #15486A;*/
 }
 
 #banner-left {
     float: left;
     width: 33%;
+    background-color: inherit;
+    text-align: center;
+    font-family: "Clicker";
 }
 
 #banner-center {
     float: left;
     width: 33%;
+    background-color: inherit;
 }
 
 #banner-right {
     float: left;
     width: 33%;
+    background-color: inherit;
+    text-align: center;
 }
 
 #banner-pic {
@@ -46,30 +79,43 @@ p {
   width: 100%;
 }
 
+
 #nav-bar ul {
     list-style-type: none;
-    margin: 0;
+    margin-top: 0;
+    margin-left: auto;
     padding: 0;
     overflow: hidden;
     z-index: 100;
-    background-color: #6a152f;
-    
+    background-color: white;
+    text-align: center;
+
 } 
 
-#nav-bar li {
-    display: inline;
-    float: left;
-    color: white;
+#nav-bar ul li {
+    display: inline-block;
+    line-height: 150%;
+    padding: 5px 10px 0px 10px;
+    color: #51156a;
+    font-family: "Overpass";
+    font-size: 20px;
 }
 
 #page-content {
     margin: auto;
-    padding: 20px 80px 0 80px;
+    padding-left: 50px;
+    padding-right: 50px;
     position: relative;
     width: 800px;
     min-width: 600px;
     font-size: 16pt;
+    text-align: center;
+}
 
+.content-headers {
+    padding-left: 5px;
+    display: inline-block;
+    text-align: left;
 }
 
 blockquote {
