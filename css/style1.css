@@ -9,27 +9,23 @@
   }
 
 html {
-	margin: 0;
-	padding: 0;
+	height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    width: 100%;
     font-family: "Overpass", sarif;
     color: rgb(34, 13, 7);
     margin: 0;
 }
 
-p { 
-	margin-top: 0;
-    padding: 15px; 
-	text-align: justify;
-}
-
 .header-bar {
     height: 2em;
-    padding: 0px 0px 0px 0px;
-    position: absolute;
-    width: 100%;
+    padding: 0;
 }
 
 .colorstrip {
@@ -48,9 +44,9 @@ p {
 .banner {
     margin: auto;
     position: relative;
-    width: 100%;
-    padding-top: 5%;
+    padding: 20px 0px 0px 0px;
     min-width: 800px;
+    max-width: 100%;
     /*background-color: #15486A;*/
 }
 
@@ -66,9 +62,9 @@ p {
     margin-left: 80px;
     text-align: center;
     font-family: "Clicker";
-    font-size: 70px;
+    font-size: 75px;
     color: #6a5d15;
-    text-shadow: 1px 0 0 #15486A, 2px 0 0 #51156a;
+    text-shadow: 2px 0 0 #15486A, 3px 0 0 #51156a;
 }
 
 #banner-center {
@@ -94,18 +90,19 @@ p {
 }
 
 #banner-right .text {
-    margin-top: 40px;
-    margin-right: 80px;
+    margin-top: 80px;
+    margin-right: 180px;
     text-align: center;
-    font-family: "Clicker";
-    font-size: 70px;
+    font-family: "Overpass";
+    font-size: 60px;
     color: #6a5d15;
-    text-shadow: 1px 0 0 #15486A, 2px 0 0 #51156a;
+    text-shadow: -2px 0 0 #15486A, -3px 0 0 #51156a;
 }
 
 
 #nav-bar {
     min-width: 800px;
+    max-width: 100%;
     margin-left: auto;
     position: relative;
 }
@@ -135,6 +132,7 @@ p {
     padding-right: 50px;
     position: relative;
     width: 800px;
+    max-width: 100%;
     min-width: 600px;
     font-size: 16pt;
     text-align: center;
