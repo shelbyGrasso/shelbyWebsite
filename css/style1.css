@@ -16,6 +16,10 @@ html {
     box-sizing: border-box;
 }
 
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 body {
     width: 100%;
     font-family: "Overpass", sarif;
@@ -76,6 +80,7 @@ body {
 }
 
 #banner-pic {
+    box-sizing: border-box;
     display: block;
     margin-bottom: 0;
     width: 100%;
