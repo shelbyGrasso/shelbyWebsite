@@ -9,35 +9,41 @@
     <meta property="og:description" content="A simple HTML5 Template for new projects.">
     <meta property="og:image" content="image.png"> -->
         <title>Who is Shelby Grasso?</title>
-        <link rel="stylesheet" href="css/style1.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style1.css">
     </head>
     <body>
         <div id="page-head">
-
-            <div class="header-bar">
-                <div class="colorstrip" style="width:100%; margin-bottom:10px;"></div>
-                <a href="index.html">
-                    <img id="shelby-logo" src="shelby-logo.png" alt="shelby grasso logo" width=80 min-width=80>
-                </a>
+            <div class="header-bar" class="container.fluid">
+                <div class="row">
+                    <div class="colorstrip" class="col-12"></div>    
+                </div>
+                <div class="row">
+                     <a href="index.html">
+                        <img id="shelby-logo" src="shelby-logo.png" alt="shelby grasso logo" width=80 min-width=80>
+                    </a>
+                </div>
             </div>
             
 
-            <div class="banner">
-                <div id="banner-left">
-                    <div class="text">web <br>     developer
+            <div class="banner" class="container">
+                <div class="row justify-content-center">
+                    <div class="col-4 align-self-center" class="text-center" id="banner-left">
+                        <h1>
+                            web<br>developer
+                        </h1>
+                    </div>
+                    <div class="col-4 align-self-end" id="banner-center">
+                        <img id="banner-pic" src="shelby-merge-crop-soft.png" alt="shelby grasso mosaic">
+                    </div>
+                    <div class="col-4 align-self-center" class= "text-center" id="banner-right">
+                        <h1>
+                            other JS words
+                        </h1>
                     </div>
                 </div>
-                <div id="banner-center">
-                    <img id="banner-pic" src="shelby-merge-crop-soft.pn" alt="shelby grasso mosaic">
-                </div>
-                <div id="banner-right">
-                    <div class="text">
-                        multi-faceted
-                    </div>
-                </div>
-                <div style="clear:both;"></div>
             </div>
+                
     
             <div id="nav-bar">
                 <div class="colorstrip"></div>
@@ -47,9 +53,6 @@
                     <a href="contact.html"><li>contact</li></a>
                     <li>blog</li>
                 </ul>
-                <div class="alert alert-primary" role="alert">
-                    This is a primary alert—check it out!
-                  </div>
             </div>
         
         </div>
