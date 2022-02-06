@@ -31,30 +31,35 @@ body {
     font-family: "Overpass", sarif;
     color: rgb(34, 13, 7);
     margin: 0;
+    padding: 0;
+    background-color: #15486A;
 }
 
-.header-bar {
-   
+#page-head {
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    min-width: 800px;
 }
 
 .colorstrip {
    /* margin: auto;
     width: 800px; */
     width: 100%;
-    height: 5px;
-    border-bottom: solid 2px #51156a;
+    height: 15px;
+    border-bottom: solid 3px #51156a;
     background-color: #15486A;
-    border-top: solid 3px #6a5d15;
+    border-top: solid 4px #6a5d15;
 }
 
 #shelby-logo {
-    margin-left: 20px;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
+/* Banner */
 
 .banner {
-    min-width: 800px;
+    min-width: 795px;
     /*background-color: #15486A;*/
 }
 
@@ -65,9 +70,9 @@ body {
 #banner-left h1 {
     text-align: right;
     font-family: "Clicker";
-    font-size: 90px;
-    color: #6a5d15;
-    text-shadow: 2px 0 0 #15486A, 3px 0 0 #51156a;
+    font-size:calc(60px + 5vw);
+    min-width: 200px;
+    color: #51156a;
 }
 
 #banner-center {
@@ -79,6 +84,7 @@ body {
     display: block;
     width: 100%;
     position: relative;
+    opacity: 100%;
   }
 
 #banner-right {
@@ -86,39 +92,41 @@ body {
 }
 
 #banner-right h1 {
-   
+    margin: 0;
     font-family: "Overpass";
-    font-size: 60px;
-    color: #6a5d15;
-    text-shadow: -2px 0 0 #15486A, -3px 0 0 #51156a;
+    font-size:calc(20px + 4.5vw);
+    text-align: center;
+    color: #51156a;
 }
 
+/* Navigation bar */
 
-#nav-bar {
+.nav-bar {
+    width: 100%;
     min-width: 800px;
-    max-width: 100%;
-    margin-left: auto;
-    position: relative;
+    
+    
 }
 
-#nav-bar ul {
+.nav-bar ul {
     list-style-type: none;
     margin-top: 0;
     padding: 0;
     overflow: hidden;
-    z-index: 100;
     background-color: white;
     text-align: center;
 } 
 
-#nav-bar ul li {
+.nav-bar ul li {
     display: inline-block;
     line-height: 150%;
     padding: 5px 10px 0px 10px;
-    color: #51156a;
+    color: rgb(34, 13, 7);
     font-family: "Overpass";
     font-size: 20px;
 }
+
+/* Page content */
 
 #page-content {
     margin: auto;
