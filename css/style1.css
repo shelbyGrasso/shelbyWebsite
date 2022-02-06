@@ -32,7 +32,6 @@ body {
     color: rgb(34, 13, 7);
     margin: 0;
     padding: 0;
-    background-color: #15486A;
 }
 
 #page-head {
@@ -40,6 +39,7 @@ body {
     margin: 0;
     width: 100%;
     min-width: 800px;
+    
 }
 
 .colorstrip {
@@ -53,14 +53,45 @@ body {
 }
 
 #shelby-logo {
+    margin: 20px;
     padding: 20px 0px 20px 0px;
+    border: solid 1px #51156a;
+    border-radius: 50%;
+}
+
+/* Navigation bar */
+
+.nav-bar {
+    border-bottom: solid 1px #6a5d15;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+} 
+
+.nav-bar ul li {
+    display: inline-block;
+    line-height: 150%;
+    padding: 5px 12px 0px 12px;
+    color: #6a5d15;
+    font-family: "Overpass";
+    font-size: 20px;
 }
 
 /* Banner */
 
 .banner {
-    min-width: 795px;
-    /*background-color: #15486A;*/
+    min-width: 800px;
+    padding: 10px 0px 0px 35px;
+    width: 100%;
+    background-color: white;
+    border-bottom: solid 3px #6a5d15;
+    border-right: solid 2px #6a5d15;
+    border-bottom-right-radius: 25%;
+    border-top-right-radius: 25%;
 }
 
 #banner-left {
@@ -68,11 +99,11 @@ body {
 }
 
 #banner-left h1 {
-    text-align: right;
+    text-align: left;
     font-family: "Clicker";
-    font-size:calc(60px + 5vw);
+    font-size:calc(48px + 4vw);
     min-width: 200px;
-    color: #51156a;
+    color: #15486A;
 }
 
 #banner-center {
@@ -84,7 +115,7 @@ body {
     display: block;
     width: 100%;
     position: relative;
-    opacity: 100%;
+    opacity: 75%;
   }
 
 #banner-right {
@@ -93,37 +124,11 @@ body {
 
 #banner-right h1 {
     margin: 0;
+    padding-bottom: 20px;
     font-family: "Overpass";
     font-size:calc(20px + 4.5vw);
     text-align: center;
-    color: #51156a;
-}
-
-/* Navigation bar */
-
-.nav-bar {
-    width: 100%;
-    min-width: 800px;
-    
-    
-}
-
-.nav-bar ul {
-    list-style-type: none;
-    margin-top: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-    text-align: center;
-} 
-
-.nav-bar ul li {
-    display: inline-block;
-    line-height: 150%;
-    padding: 5px 10px 0px 10px;
-    color: rgb(34, 13, 7);
-    font-family: "Overpass";
-    font-size: 20px;
+    color: #15486A;
 }
 
 /* Page content */
