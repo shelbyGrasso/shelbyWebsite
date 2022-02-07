@@ -104,14 +104,6 @@ body {
     
   }
 
-
-.banner-text h1 {
-    margin: 0;
-    padding-bottom: 20px;
-    font-family: "Overpass";
-    font-size:calc(20px + 4.5vw);
-}
-
 #web-dev-text {
     border-bottom: solid 2px #51156a;
 }
@@ -119,20 +111,30 @@ body {
     display: block;
     padding: 0px;
     font-family: "Overpass";
-    font-size: calc(20px + 3.75vw);
-    color: #15486A;
+    font-size: calc(36px + 3.75vw);
+    color: #15486a;
     font-weight: bold;
-    text-align: right;
-   
+    text-align: center;
+}
+
+#web-dev-text h1 span {
+    font-size: calc(18px + 3.75vw);
+    font-weight: normal;
 }
 
 #and-other-text h1 {
-    display: block;
-    padding: 80px;
+    padding: 0px 0px 0px 15px;
     font-family: "Clicker";
-    color: #15486A;
-    font-size: calc(15px + 4vw);
+    color: #15486a;
+    font-size: calc(24px + 4vw);
+    font-weight: bold;
+    line-height: calc(20px + 4vw);
     text-align: left;
+}
+
+#and-other-text h1 span {
+    font-size: calc(36px + 4vw);
+    font-weight: normal;  
 }
 
 /* Page content */
