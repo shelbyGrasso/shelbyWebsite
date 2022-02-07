@@ -123,18 +123,18 @@ body {
 }
 
 #and-other-text h1 {
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 0px;
     font-family: "Clicker";
     color: #15486a;
     font-size: calc(24px + 4vw);
     font-weight: bold;
     line-height: calc(20px + 4vw);
-    text-align: left;
+    text-align: center;
 }
 
 #and-other-text h1 span {
-    font-size: calc(36px + 4vw);
-    font-weight: normal;  
+    font-size: calc(20px + 4vw);
+    font-weight: normal;
 }
 
 /* Page content */
