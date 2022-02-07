@@ -32,12 +32,12 @@ body {
     color: rgb(34, 13, 7);
     margin: 0;
     padding: 0;
+    
 }
 
 #page-head {
+    padding-left: 0;
     background-color: white;
-    margin: 0;
-    width: 100%;
     min-width: 800px;
     
 }
@@ -55,14 +55,14 @@ body {
 #shelby-logo {
     margin: 20px;
     padding: 2px;
-    border: solid 1px #51156a;
-    border-radius: 50%;
+    
 }
 
 /* Navigation bar */
 
 .nav-bar {
-    border-bottom: solid 1px #6a5d15;
+    margin: 0;
+    border-bottom: solid 2px #6a5d15;
 }
 
 .nav-bar ul {
@@ -83,12 +83,42 @@ body {
 
 /* Banner */
 
+.banner {
+    min-width: 800px;
+    padding: 50px 0px 0px 0px;
+    background-color: white;
+    border-bottom: solid 2px #6a5d15;
+    border-right: solid 2px #6a5d15;
+    
+}
+
+#banner-pic {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    position: relative;
+    opacity: 100%;
+    border: solid 1px;
+    border-top-right-radius: 50%;
+    padding-top: 20px;
+    background-color: #15486A;
+  }
+
+
+#banner-text h1 {
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: "Overpass";
+    font-size:calc(20px + 4.5vw);
+}
+
 #web-dev-text {
     display: block;
     padding: 40px;
     font-family: "Overpass";
-    font-size: calc(25px + 4vw);
-    text-shadow: -1px 0 #6a5d15, 0 1px #6a5d15, 1px 0 #6a5d15, 0 -1px #6a5d15;
+    font-size: calc(25px + 3.5vw);
+    color: #51156a;
+    font-weight: bold;
     text-align: left;
 }
 
@@ -96,10 +126,9 @@ body {
     display: block;
     padding: 80px;
     font-family: "Clicker";
-    color: #15486A;
-    font-size: calc(10px + 4vw);
+    color: #51156a;
+    font-size: calc(15px + 4vw);
     text-align: right;
-    text-shadow: -.5px 0 #6a5d15, 0 .5px #6a5d15, .5px 0 #6a5d15, 0 -.5px #6a5d15;
 }
 
 #other-text {
@@ -111,39 +140,15 @@ body {
     color: #15486A;
 }
 
-.banner {
-    min-width: 800px;
-    padding: 50px 0px 0px 35px;
-    width: 100%;
-    background-color: white;
-    border-bottom: solid 4px #6a5d15;
-    border-right: solid 2px #6a5d15;
-    
-}
-
-#banner-pic {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    position: relative;
-    opacity: 85%;
-  }
-
-#banner-right {
-    background-color: inherit;
-}
-
-#banner-right h1 {
-    margin: 0;
-    padding-bottom: 20px;
-    font-family: "Overpass";
-    font-size:calc(20px + 4.5vw);
-    color: #15486A;
-}
-
 /* Page content */
 
-#page-content {
+#shelby-summary {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.page-content {
     margin: auto;
     padding-left: 50px;
     padding-right: 50px;
