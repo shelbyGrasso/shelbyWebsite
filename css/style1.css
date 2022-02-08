@@ -156,25 +156,21 @@ p {text-indent: 50px;}
 
 
 #about-page {
-    margin: 0;
-    padding: 40px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
     min-width: 800px;
     text-align: justified;
     font-size: 18px;
+    color: #15486A;
     border-left: solid 2px #51156a;
     
     border-right: solid 2px #6a5d15;
 }
 
-#about-page:after {
-    content: "";
-    background: black;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 50%;
-    width: 1px;
-  }
+#about-page h5 {
+    font-family: "Clicker";
+    font-size: 30px;
+}
 
 .content-headers {
     padding-left: 5px;
