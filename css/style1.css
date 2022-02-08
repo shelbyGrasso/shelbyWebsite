@@ -35,6 +35,8 @@ body {
     
 }
 
+p {text-indent: 50px;}
+
 #page-head {
     padding-left: 15px;
     background-color: white;
@@ -139,23 +141,40 @@ body {
 
 /* Page content */
 
+.page-content {
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    min-width: 600px;
+}
+
 #shelby-summary {
     padding-top: 30px;
     text-align: center;
     font-size: 24px;
 }
 
-.page-content {
-    margin: auto;
-    padding-left: 50px;
-    padding-right: 50px;
-    position: relative;
-    width: 800px;
-    max-width: 100%;
-    min-width: 600px;
-    font-size: 16pt;
-    text-align: center;
+
+#about-page {
+    margin: 0;
+    padding: 40px 0px 0px 0px;
+    min-width: 800px;
+    text-align: justified;
+    font-size: 18px;
+    border-left: solid 2px #51156a;
+    
+    border-right: solid 2px #6a5d15;
 }
+
+#about-page:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 1px;
+  }
 
 .content-headers {
     padding-left: 5px;
