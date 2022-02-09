@@ -155,7 +155,7 @@ p {text-indent: 50px;}
 }
 
 
-#about-page {
+#page-body {
     margin: 0px 0px 0px 0px;
     padding: 50px 0px 0px 0px;
     min-width: 800px;
@@ -167,7 +167,7 @@ p {text-indent: 50px;}
     border-right: solid 2px #6a5d15;
 }
 
-#about-page h5 {
+#page-body h5 {
     font-family: "Clicker";
     font-size: 30px;
 }
