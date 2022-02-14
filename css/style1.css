@@ -10,7 +10,11 @@
 
 /* bootstrap classes */
 
-
+#carousel-projects .carousel-control-prev, 
+#carousel-projects .carousel-control-next{
+    top: 50%;
+    bottom: 50%;
+}
 
  /* custom classes*/
 
