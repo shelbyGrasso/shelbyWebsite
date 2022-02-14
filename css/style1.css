@@ -29,7 +29,9 @@
     left: 0;
     top: 0;
     width: 100%;
+    padding: 15px 25px 15px 25px;
 }
+
 
 .carousel-inner {
     border-bottom: solid 2px #51156a;
