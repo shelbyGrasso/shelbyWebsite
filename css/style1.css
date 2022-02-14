@@ -16,7 +16,28 @@
     bottom: 50%;
 }
 
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.carousel-inner {
+    border-bottom: solid 2px #51156a;
+}
+
  /* custom classes*/
+
+
 
 html {
 	height: 100%;
@@ -95,7 +116,6 @@ p {text-indent: 50px;}
     background-color: white;
     border-left: solid 2px #51156a;
     border-right: solid 2px #6a5d15;
-    
 }
 
 #banner-pic {
@@ -167,11 +187,21 @@ p {text-indent: 50px;}
     font-size: 18px;
     color: #15486A;
     border-left: solid 2px #51156a;
-    
     border-right: solid 2px #6a5d15;
 }
 
-#page-body h5 {
+#project-body {
+    margin: 0px 15px 0px 15px;
+    padding: 50px 0px 0px 0px;
+    min-width: 800px;
+    text-align: justified;
+    font-size: 18px;
+    color: #15486A;
+    border-left: solid 2px #51156a;
+    border-right: solid 2px #6a5d15;
+}
+
+h5 {
     font-family: "Clicker";
     font-size: 30px;
 }
@@ -187,4 +217,15 @@ blockquote {
     padding-right: 50px;
     text-align: justify;
     font: rgb(8,42,68);
+}
+
+#contact-page {
+    border-right: solid 2px #6a5d15;
+    border-left: solid 2px #51156a;
+}
+
+#project-page {
+    padding: 0px 0px 0px 0px;
+    border-left: solid 2px #51156a;
+    border-right: solid 2px #6a5d15;
 }
