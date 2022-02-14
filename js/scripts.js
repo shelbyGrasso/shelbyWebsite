@@ -7,7 +7,7 @@ window.onload = function() {
 var descriptorList = ['adaptor', 'strategist', 'connector', 'perfectionist', 'wordsmith', 'psychologist', 'comedian', 'virtual farmer', 'californian', 'life-long learner'];
 var currentDescriptorIndex = -1;
 
-// function to chnage banner adjectives every 2 seconds
+// function to change banner adjectives every 2 seconds
 function changeDescriptor() {
     ++currentDescriptorIndex;
     if (currentDescriptorIndex >= descriptorList.length) {
