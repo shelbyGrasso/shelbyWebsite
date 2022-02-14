@@ -1,0 +1,152 @@
+
+#banner {
+    padding:20px;
+    margin-left: auto, 30px;
+    margin-right: auto, 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-style: "Baskerville",Helvetica,serif;
+	font-size: 40px;
+	line-height: 1.428571429;
+	color: rgb(15, 25, 26);
+    background-color: cadetblue;
+    border-radius: 4px; 
+}
+
+#date-select {
+    margin-left: auto;
+    background-color:rgb(179, 245, 201);
+	border:1px solid rgb(15, 25, 26);
+    border-radius: 4px;
+	color:rgb(15, 25, 26);
+	font-style: "Baskerville",Helvetica,serif;
+	padding:6px 15px;
+}
+
+#date-span {
+    float: right;
+    font-size: 30%;
+}
+
+h3 {
+    padding:20px;
+    margin-left: auto, 30px;
+    margin-right: auto, 30px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-style: "Baskerville",Helvetica,serif;
+	padding-top: 5px;
+    padding-bottom: 5px;
+	color: rgb(15, 25, 26);
+    background-color: rgb(179, 245, 201);
+    float: center;
+    border-radius: 4px;
+}
+
+body {
+	font-family: "Baskerville",Helvetica,sans-serif;
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: rgb(15, 25, 26);
+}
+
+#timetable {
+	padding:auto;
+	color: rgb(15, 25, 26); 
+	font-family: 'Baskerville', Helvetica, serif; 
+	font-size: 20px; 
+	line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    user-select: none;
+    width:1200px;
+    table-layout: fixed;
+}
+
+td {
+    padding: 5px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+th {
+    border-radius: 4px;
+}
+
+.timerow {
+    padding: 8px;
+    color: rgb(15, 25, 26);
+    background-color: cadetblue;
+    font-weight: lighter;
+}
+
+.rooms {
+    padding: 15px;
+    font-weight: bolder;
+    background-color: cadetblue;
+}
+
+.timeslot {
+    background-color:  rgb(179, 245, 201);
+}
+.timeslot:hover {
+    border: outset 5px rgb(124, 189, 145);
+}
+
+.clicked {
+    background-color: rgb(255, 251, 201);
+    border: outset 5px rgb(219, 216, 171);
+}
+
+.booked {
+    background-color:  rgb(160, 192, 168);
+    border: inset 5px rgb(112, 141, 123);
+}
+.booked:hover {
+    border: outset 5px rgb(112, 141, 123);
+}
+
+.delete {
+    background-color: rgb(255, 201, 201);
+    border: inset 5px rgb(187, 147, 147);
+}
+
+#interface {
+    margin: 30px;
+}
+
+#reserveForm {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 3px solid cadetblue;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgb(279, 245, 201);
+}
+
+#deleteForm {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 3px solid cadetblue;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: rgb(279, 245, 201);
+}
+
+button {
+	background-color:cadetblue;
+	border:1px solid rgb(179, 245, 201);
+    border-radius: 4px;
+	color:rgb(15, 25, 26);
+	font-style: "Baskerville",Helvetica,serif;
+	padding:6px 15px;
+}
+
+.tryagain {
+    display: none;
+}
