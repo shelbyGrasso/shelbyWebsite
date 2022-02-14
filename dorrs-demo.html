@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>DORRS - Room Reservations</title>
+    <link rel="stylesheet" href="dorrs-demo/css/dorrs.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="dorrs-demo/js/dorrs.js"></script>
+  </head>
+  <body>
+    <h1 id="banner">D.O.R.R.S.
+        <span id="date-span">
+            <label for="cal"><b>Select a date up to 30 days from now:</b></label>
+            <br>
+            <input type="date" name="cal" id="date-select"></input>
+        </span>
+    </h1>
+    <h3>"DORRS Offers Room Reservation Services"</h3>
+    <div id="interface">
+    <table id="timetable">
+        <tr class="times">
+            <th class="timerow" id="selected-date">&nbsp;</th>
+            <th class="timerow">8:00am</th>
+            <th class="timerow">9:00am</th>
+            <th class="timerow">10:00am</th>
+            <th class="timerow">11:00am</th>
+            <th class="timerow">12:00pm</th>
+            <th class="timerow">1:00pm</th>
+            <th class="timerow">2:00pm</th>
+            <th class="timerow">3:00pm</th>
+            <th class="timerow">4:00pm</th>
+            <th class="timerow">5:00pm</th>
+        </tr>
+        <tr id="red">
+            <th class="rooms" id="red-room">Red Room</th>
+            <td class="timeslot" name="8:00am">&nbsp;</td>
+            <td class="timeslot" name="9:00am">&nbsp;</td>
+            <td class="timeslot" name="10:00am">&nbsp;</td>
+            <td class="timeslot" name="11:00am">&nbsp;</td>
+            <td class="timeslot" name="12:00pm">&nbsp;</td>
+            <td class="timeslot" name="1:00pm">&nbsp;</td>
+            <td class="timeslot" name="2:00pm">&nbsp;</td>
+            <td class="timeslot" name="3:00pm">&nbsp;</td>
+            <td class="timeslot" name="4:00pm">&nbsp;</td>
+            <td class="timeslot" name="5:00pm">&nbsp;</td>
+        </tr>
+        <tr id="orange">
+            <th class="rooms" id="orange-room">Orange Room</th>
+            <td class="timeslot" name="8:00am">&nbsp;</td>
+            <td class="timeslot" name="9:00am">&nbsp;</td>
+            <td class="timeslot" name="10:00am">&nbsp;</td>
+            <td class="timeslot" name="11:00am">&nbsp;</td>
+            <td class="timeslot" name="12:00pm">&nbsp;</td>
+            <td class="timeslot" name="1:00pm">&nbsp;</td>
+            <td class="timeslot" name="2:00pm">&nbsp;</td>
+            <td class="timeslot" name="3:00pm">&nbsp;</td>
+            <td class="timeslot" name="4:00pm">&nbsp;</td>
+            <td class="timeslot" name="5:00pm">&nbsp;</td>
+        </tr>
+        <tr id="yellow">
+            <th class="rooms" id="yellow-room">Yellow Room</th>
+            <td class="timeslot" name="8:00am">&nbsp;</td>
+            <td class="timeslot" name="9:00am">&nbsp;</td>
+            <td class="timeslot" name="10:00am">&nbsp;</td>
+            <td class="timeslot" name="11:00am">&nbsp;</td>
+            <td class="timeslot" name="12:00pm">&nbsp;</td>
+            <td class="timeslot" name="1:00pm">&nbsp;</td>
+            <td class="timeslot" name="2:00pm">&nbsp;</td>
+            <td class="timeslot" name="3:00pm">&nbsp;</td>
+            <td class="timeslot" name="4:00pm">&nbsp;</td>
+            <td class="timeslot" name="5:00pm">&nbsp;</td>
+        </tr>
+        <tr id="green">
+            <th class="rooms" id="green-room">Green Room</th>
+            <td class="timeslot" name="8:00am">&nbsp;</td>
+            <td class="timeslot" name="9:00am">&nbsp;</td>
+            <td class="timeslot" name="10:00am">&nbsp;</td>
+            <td class="timeslot" name="11:00am">&nbsp;</td>
+            <td class="timeslot" name="12:00pm">&nbsp;</td>
+            <td class="timeslot" name="1:00pm">&nbsp;</td>
+            <td class="timeslot" name="2:00pm">&nbsp;</td>
+            <td class="timeslot" name="3:00pm">&nbsp;</td>
+            <td class="timeslot" name="4:00pm">&nbsp;</td>
+            <td class="timeslot" name="5:00pm">&nbsp;</td>
+        </tr>
+        <tr id="blue">
+            <th class="rooms" id="blue-room">Blue Room</th>
+            <td class="timeslot" name="8:00am">&nbsp;</td>
+            <td class="timeslot" name="9:00am">&nbsp;</td>
+            <td class="timeslot" name="10:00am">&nbsp;</td>
+            <td class="timeslot" name="11:00am">&nbsp;</td>
+            <td class="timeslot" name="12:00pm">&nbsp;</td>
+            <td class="timeslot" name="1:00pm">&nbsp;</td>
+            <td class="timeslot" name="2:00pm">&nbsp;</td>
+            <td class="timeslot" name="3:00pm">&nbsp;</td>
+            <td class="timeslot" name="4:00pm">&nbsp;</td>
+            <td class="timeslot" name="5:00pm">&nbsp;</td>
+        </tr>
+        <tr id="purple">
+            <th class="rooms" id="purple-room">Purple Room</th>
+            <td class="timeslot" name="8:00am">&nbsp;</td>
+            <td class="timeslot" name="9:00am">&nbsp;</td>
+            <td class="timeslot" name="10:00am">&nbsp;</td>
+            <td class="timeslot" name="11:00am">&nbsp;</td>
+            <td class="timeslot" name="12:00pm">&nbsp;</td>
+            <td class="timeslot" name="1:00pm">&nbsp;</td>
+            <td class="timeslot" name="2:00pm">&nbsp;</td>
+            <td class="timeslot" name="3:00pm">&nbsp;</td>
+            <td class="timeslot" name="4:00pm">&nbsp;</td>
+            <td class="timeslot" name="5:00pm">&nbsp;</td>
+        </tr>
+    </table>
+    </div>
+    <div class="form-popup" id="reserveForm">
+        <form class="form-container">
+          <h1 id="reserve-block">Book This Time Slot?</h1>
+      
+          <label for="name"><b>Name:</b></label>
+          <input type="text" placeholder="Enter Your Name" name="xname" id="username" required>
+          <br>
+          <label for="email"><b>Email:</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+          <br>
+          <div class="tryagain">Please enter a valid email address.</div>
+          <br>
+          <label for="psw"><b>Password (in case you need to cancel this reservation later):</b></label>
+          <br>
+          <input type="password" placeholder="Enter Password" name="pwd" id="pwd" required>
+          <br><br>
+          <button type="button" id="reserve-btn">Reserve</button>
+          <button type="button" id="cancel-btn">Cancel</button>
+        </form>
+      </div>
+      <div class="form-popup" id="deleteForm">
+        <form class="form-container">
+          <h1 id="delete-block">Delete This Time Slot?</h1>
+          <label for="psw"><b>Password:</b></label>
+          <br>
+          <input type="password" placeholder="Enter Password" name="pwd" id="pwd-attempt" required>
+          <br>
+          <div class="tryagain">Incorrect password. Try again.</div>
+          <br>
+          <button type="button" id="delete-btn">Delete Reservation</button>
+          <button type="button" id="goback-btn">Nevermind</button>
+        </form>
+      </div>
+  </body>
+  </html>
+
+
+
+  
